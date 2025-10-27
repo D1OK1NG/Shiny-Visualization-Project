@@ -53,6 +53,8 @@ The packaged file `Project_PPeek1ng.zip` includes:
 This project was developed as part of a Master’s dissertation focused on enhancing probability and statistics learning through interactive visualization.  
 It combines statistical theory, pedagogical design, and data-driven user interaction using R and Shiny.
 
+The project was completed under the academic supervision of **Dr. Azam Asanjarani** and **Dr. Heti Afimeimounga**, whose guidance and insights were invaluable in shaping the educational design and overall structure of this work.
+
 For detailed methodology, educational design, and system architecture, please refer to the dissertation document.
 
 ---
@@ -90,5 +92,6 @@ If you reference or reuse this work, please cite:
 
 **Author:** Chunyi Wu  
 **Institution:** University of Auckland — Master of Professional Studies in Data Science  
+**Supervisors:** Dr. Azam Asanjarani, Dr. Heti Afimeimounga  
 **Email:** cwu112@aucklanduni.ac.nz  
 **GitHub:** [https://github.com/D1OK1NG](https://github.com/D1OK1NG)
