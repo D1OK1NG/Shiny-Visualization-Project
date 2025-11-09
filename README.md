@@ -45,43 +45,65 @@ The packaged file `Project_PPeek1ng.zip` includes:
 
 ---
 
+## Included Resources
+
+The packaged file `Project_PPeek1ng.zip` includes:
+- All R source files listed above  
+- Image and visualization assets used across modules  
+- The enhanced Java Markov Chain learning tool (source and compiled version)  
+- A structured directory ready for deployment on RStudio or Shiny Server
+
+---
+
 ## How to Run
 
-1. Download or clone this repository:
+1. **Download or clone this repository:**
+
+   ```bash
    git clone https://github.com/D1OK1NG/Shiny-Visualization-Project.git
-Unzip Project_PPeek1ng.zip
+   ```
 
-Open the project folder in RStudio
+2. **Unzip the package:**
 
-Run the app:
-shiny::runApp("Project_PPeek1ng")
-The dashboard will open in your default browser.
+   ```bash
+   unzip Project_PPeek1ng.zip
+   ```
 
-For the Markov Chain Tool, open the MarkovChainTool/ subfolder and run:
+3. **Open the project folder in RStudio.**
 
-java -jar MarkovChainVisualizer.jar
-Academic Context
-This project was developed as part of a Master’s dissertation in the Department of Statistics, University of Auckland, under the academic supervision of Dr. Azam Asanjarani and Dr. Heti Afimeimounga.
+4. **Run the Shiny application:**
+
+   ```R
+   shiny::runApp("Project_PPeek1ng")
+   ```
+
+5. **The dashboard will open automatically in your default browser.**
+
+---
+
+## Academic Context
+
+This project was developed as part of a Master’s dissertation in the **Department of Statistics, University of Auckland**, under the academic supervision of **Dr. Azam Asanjarani** and **Dr. Heti Afimeimounga**.  
 Their guidance and expertise were invaluable in shaping both the educational framework and technical implementation of this system.
 
-Alongside the Shiny platform, a supplementary enhancement of a Java-based Markov Chain learning tool was also undertaken as part of the same research initiative.
+Alongside the Shiny platform, a supplementary enhancement of a **Java-based Markov Chain learning tool** was also undertaken as part of the same research initiative.  
 This side work modernized the interface and improved the pedagogical visualization of stochastic transitions, aligning with the dissertation’s overarching goal of fostering interactive, visually supported probability learning.
 
-As this work forms part of a larger ongoing project led by the supervisors, the repository has also been forked to their GitHub account.
+As this work forms part of a larger ongoing project led by the supervisors, the repository has also been forked to their GitHub account.  
 Upon completion, it will be included in the department’s official GitHub repository to support future research and teaching initiatives in probability education.
 
 For detailed methodology, educational design, and system architecture, please refer to the dissertation document.
 
-Repository Structure
+---
+
+## Repository Structure
+
+```
 Shiny-Visualization-Project/
 │
 ├── Project_PPeek1ng.zip              # Full Shiny project archive
 ├── README.md                         # Project documentation
-├── MarkovChainTool/                  # Java-based side project
-│   ├── src/
-│   ├── bin/
-│   ├── MarkovChainVisualizer.jar
-│   └── README_Markov.md
+├── MarkovChainTool               
 └── (unzipped Shiny folder contents)
     ├── main.R
     ├── module_probability.R
@@ -90,6 +112,8 @@ Shiny-Visualization-Project/
     ├── module_conditional.R
     ├── module_expectation.R
     └── images/
+```
+
 ## License & Citation
 
 This project is shared under the MIT License for academic and educational purposes.  
