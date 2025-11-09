@@ -48,23 +48,17 @@ The packaged file `Project_PPeek1ng.zip` includes:
 ## How to Run
 
 1. Download or clone this repository:
-   ```bash
    git clone https://github.com/D1OK1NG/Shiny-Visualization-Project.git
 Unzip Project_PPeek1ng.zip
 
 Open the project folder in RStudio
 
 Run the app:
-
-R
-复制代码
 shiny::runApp("Project_PPeek1ng")
 The dashboard will open in your default browser.
 
 For the Markov Chain Tool, open the MarkovChainTool/ subfolder and run:
 
-bash
-复制代码
 java -jar MarkovChainVisualizer.jar
 Academic Context
 This project was developed as part of a Master’s dissertation in the Department of Statistics, University of Auckland, under the academic supervision of Dr. Azam Asanjarani and Dr. Heti Afimeimounga.
@@ -79,8 +73,6 @@ Upon completion, it will be included in the department’s official GitHub repos
 For detailed methodology, educational design, and system architecture, please refer to the dissertation document.
 
 Repository Structure
-python
-复制代码
 Shiny-Visualization-Project/
 │
 ├── Project_PPeek1ng.zip              # Full Shiny project archive
