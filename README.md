@@ -90,16 +90,20 @@ Shiny-Visualization-Project/
     ├── module_conditional.R
     ├── module_expectation.R
     └── images/
-License & Citation
-This project is shared under the MIT License for academic and educational purposes.
+## License & Citation
+
+This project is shared under the MIT License for academic and educational purposes.  
 If you reference or reuse this work, please cite:
 
-Wu, Chunyi (2025). Shiny-Based Probability Visualization Project and Java Markov Chain Learning Tool. Department of Statistics, University of Auckland.
-GitHub: https://github.com/D1OK1NG/Shiny-Visualization-Project
+> Wu, Chunyi (2025). *Shiny-Based Probability Visualization Project.* Department of Statistics, University of Auckland.  
+> GitHub: [https://github.com/D1OK1NG/Shiny-Visualization-Project](https://github.com/D1OK1NG/Shiny-Visualization-Project)
 
-Contact
-Author: Chunyi Wu
-Institution: University of Auckland — Master of Professional Studies in Data Science
-Department: Statistics
-Supervisors: Dr. Azam Asanjarani, Dr. Heti Afimeimounga
-Email: cwu112@aucklanduni.ac.nz
+---
+
+## Contact
+
+**Author:** Chunyi Wu  
+**Institution:** University of Auckland — Master of Professional Studies in Data Science  
+**Department:** Statistics  
+**Supervisors:** Dr. Azam Asanjarani, Dr. Heti Afimeimounga  
+**Email:** cwu112@aucklanduni.ac.nz  
